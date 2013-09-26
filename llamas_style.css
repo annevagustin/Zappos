@@ -1,0 +1,184 @@
+/* Cascading Style Sheet for Llamas Website */
+
+article, aside, footer, header, section, nav {
+	display: block;
+}
+
+header {
+	width: 90%;
+	text-align: right;
+}
+
+body * {
+	font-family: Trebuchet MS, Geneva, serif;
+	font-size: 1em;
+	font-weight: inherit;
+	line-height: 100%;
+	list-style: none;
+}
+
+body {
+	background: white;
+	width: 90%;
+	min-width: 1000px;
+	max-width: 1400px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+nav {
+	text-align: right;
+	width: 90%;
+	display: none;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	display: none;
+}
+
+nav ul li {
+	list-style-type: none;
+	float: left;
+	width: 15%;
+	display: none;
+}
+
+ul li {
+	list-style-type: disc;
+	line-height: 1.5em;
+}
+
+section {
+	width: 60%;
+	float: left;
+	margin: auto 10px auto 10px;
+}
+
+section article {
+	padding: 10px 20px 10px 20px;
+}
+
+section article embed {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+section article p {
+	line-height: 1.5em;
+}
+
+aside {
+	background: lightgray;
+	width: 25%;
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+aside p {
+	font-size: 0.85em;
+	line-height: 1.5em;
+}
+
+aside ol li {
+	font-size: 0.85em;
+	line-height: 1.5em;
+	list-style-type: decimal;
+}
+
+h2 {
+	font-family: Georgia, Geneva, serif;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 75%;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	font-family: Trebuchet MS, Geneva, serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	background: black;
+	margin-top: 0px;
+}
+
+h4 {
+	font-family: Trebuchet MS, Geneva, serif;
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 75%;
+}
+
+blockquote p {
+	font-size: 0.95em;
+	font-style: italic;
+	line-height: 1.75em;
+}
+
+cite {
+	font-size: 0.75em;
+	font-style: normal;
+	line-height: 75%;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a, a:active, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	background: yellow;
+	color: black;
+}
+
+table {
+	background: white;
+}
+
+table thead tr th {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	background: gray;
+}
+
+table th {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.75em;
+}
+
+table tbody tr td {
+	font-size: 0.8em;
+	text-align: center;
+	line-height: 1.75em;
+}
+
+footer {
+	width: 90%;
+	background: yellow;
+	text-align: center;
+	clear: left;
+}
+
+footer address {
+	width: 90%;
+	font-size: 0.75em;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 2em;
+	clear: left;
+}
